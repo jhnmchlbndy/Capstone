@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Online Appointment System for Veterinary Services</title>
     <link rel="stylesheet" href="css/homepage.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('#icon').click(function(){
+            $('ul').toggleClass('show');
+        });
+    });
+    </script>
 </head>
 <body>
 
@@ -14,14 +23,17 @@
         <label class="logo-img"><img src="WEBSITE ELEMENTS/logo2.png"></label>
         <label class="logo">Online Appointment System for Veterinary Services</label>
         <ul>
-            <li><a href="#"></a>HOME</li>
-            <li><a href="#"></a>SERVICES</li>
-            <li><a href="#"></a>LOGIN</li>
-            <li><a href="#"></a>SIGN UP</li>
-            <li><a href="#"></a>URGENT CARE</li>
-        </ul>       
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><button class= "button ucbutton">Urgent care</button></li>
+        </ul>     
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>  
     </nav>
-    
+    <section></section>
 
 
 
