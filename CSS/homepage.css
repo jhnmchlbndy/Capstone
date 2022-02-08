@@ -1,17 +1,1 @@
-.navbar {
-  background-color: white;
-}
-
-.logoimg img {
-  width: 10px;
-  height: 10px;
-}
-
-.projname {
-  font-family: Helvetica;
-  font-size: 100px;
-}
-
-body {
-  background-color: #f3f3f3;
-}
+.navbar{background-color:white}.logoimg img{width:10px;height:10px}.projname{font-family:Helvetica;font-size:100px}body{background-color:#f3f3f3}
