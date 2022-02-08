@@ -7,25 +7,29 @@
 
 .navbar{
     height: 80px;
-    width: 100%;
+    width: 97%;
     background-color: white;
     padding: 0 20px;
     line-height: 80px;
+    font-weight: bold;
 }
 
-    label.logo-img{
-} 
+.logo-img{
+    img{
+        width: 60px;
+        height: 60px;
+    }
+    } 
 
 label.logo{
     font-size: 18px;
     font-weight: bold;
     color: black;
-   
 }
 
 nav ul{
     float: right;
-    margin-right: 70px;
+    margin-right: 80px;
 }
 
 nav li{
@@ -35,7 +39,7 @@ nav li{
 }
 
 nav a{
-    color: black;
+    color: #1697b7;
     font-size: 18px;
     text-transform: uppercase;
     border: 1px solid transparent;
@@ -44,12 +48,7 @@ nav a{
 
 }
 
-.logo-img{
-img{
-    width: 60px;
-    height: 60px;
-}
-}
+
 
 
 
