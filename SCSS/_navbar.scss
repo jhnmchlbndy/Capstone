@@ -23,15 +23,13 @@
     }
 }
 
-.logo{
-    span{
+.sysname{  
     display: inline-block;
     text-align: left;
     font-size: 18px;
     font-weight: bold;
     color: black;
     margin-top: 10px;
-    }
 }
 
 
@@ -82,7 +80,7 @@ nav #icon{
 }
 
 @media (max-width: 1048px){
-    label.logo{
+    label.sysname{
         display: none;
     }
     nav ul{
