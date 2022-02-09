@@ -6,42 +6,48 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Online Appointment System for Veterinary Services</title>
     <link rel="stylesheet" href="css/homepage.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script>
-    $(document).ready(function(){
-        $('#icon').click(function(){
-            $('ul').toggleClass('show');
-        });
-    });
-    </script>
+
 </head>
 <body>
 
 <!--NAVIGATION BAR-->
-    <nav class="navbar">
-        <label class="logo-img"><img src="WEBSITE ELEMENTS/logo2.png"></label>
-        <label class="sysname">Online Appointment System for Veterinary Services</label>
+<nav class="navbar">
+    
+    <div class="brand-img"><img src="WEBSITE ELEMENTS/logo2.png"></div>
+    <div class="brand-title">Online Appointment System for Veterinary Services</div>
 
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a> 
+
+    <div class="navbar-links">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Login</a></li>
             <li><a href="#">Sign up</a></li>
-            <li><button class= "button ucbutton">Urgent care</button></li>
-        </ul>     
-        <label id="icon">
-            <i class="fas fa-bars"></i>
-        </label>  
-    </nav>
-    
+            <li><button class= "button nav-button">Urgent care</button></li>
+        </ul>  
+    </div>   
+        
+</nav>
+
+<!--HEADER PIC-->
     <div class="rectangle"></div>
     <label class="headerpic"><img src="WEBSITE ELEMENTS/pic/headerpic.jpg"></label>
     <p class="htext"><span class="hspan">Vets and Pet's</span> <br>Service <br>Everyday</p>
     <button class="button hbutton">Book Now</button>
 
+<!--BODY PIC-->
     <p class="btext">Online Veterinary Appointment System</p>
     <label class="bodypic"><img src="WEBSITE ELEMENTS/pic/bodypic.jpg"></label>
+
+<!--FOOTER-->
+    <div class="footer">
+        <p>footer</p>
+    </div>
 
 </body>
 </html>
