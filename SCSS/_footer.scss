@@ -215,7 +215,7 @@ p{
    
    .footer-distributed .footer-company-about {
        line-height: 20px;
-       color: #92999f;
+       color: black;
        font-size: 13px;
        font-weight: normal;
        margin: 0;
@@ -224,8 +224,9 @@ p{
    .footer-distributed .footer-company-about span {
        display: block;
        color: #ffffff;
-       font-size: 18px;
+       font-size: 30px;
        font-weight: bold;
+       text-transform: uppercase;
        margin-bottom: 20px;
    }
    
@@ -238,7 +239,7 @@ p{
        width: 35px;
        height: 35px;
        cursor: pointer;
-       background-color: #33383b;
+       background-color: #e8804c;
        border-radius: 2px;
        font-size: 20px;
        color: #ffffff;
