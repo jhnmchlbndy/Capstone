@@ -74,3 +74,18 @@
     margin: 250px 150px;
     text-align: center;
 }
+
+.img-fluid{
+    width: 100%;
+    height: auto
+}
+
+@media screen and (max-width: 800px){
+    .header-pic .body-pic{
+        padding: 0px 20px;
+        background-color: purple;
+    }
+    .rectangle .header-text .header-span .body-text{
+        display: none;
+    }
+}
