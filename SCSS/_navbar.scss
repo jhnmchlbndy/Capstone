@@ -1,104 +1,41 @@
-/* *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
-}
-
-.brand-logo{
-    img{
-        display: flex;
-        width: 60px;
-        height: 60px;
-        align-items: center;
-        margin-left: 50px;
-        cursor: pointer;
-    }
-}
-
-.brand-title{  
-    display: inline-block;
-    text-align: left;
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: -70px;
-    color: black;
-}
-
-
-.navbar-links{
-    ul{
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-    li{
-    list-style: none;
-}
-
-    a{
-    color: #1697b7;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1rem;
-    display: block;
-}
-}
-
-a.active,a:hover{
-    color: #30c3cd;
-    transition: .5s;
-}
-
-.nav-button{
-    color: white;
-    background-color: #FF0000;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 20px;
-    border: none;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: block;
-    margin-top: 5px;
-    cursor: pointer;
-}  */
-
 *{
     
     box-sizing: border-box;
   }
-  nav{
+  .navbar{
     background: #0082e6;
     height: 80px;
     width: 100%;
-  }
+    display: flex;
 
-  label.logo{
-    color: white;
-    font-size: 20px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-    
+    .logo-container{
+      color: white;
+      height: auto;
+      display: flex;
+
     img{
-        width: 50px;
-        height: 50px;
-        float: left;
-        cursor: pointer;
+      width: 60px;
+      height: 60px;
+      float: left;
+      margin-top: 10px;
+      margin-left: 45px;
+      cursor: pointer;
+      }
     }
-  }
+
+    .navbar-title{
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-left: 20px;
+      white-space: nowrap;
+    }
+
+   .navbar-links{
+    width: 100%;
+    }
+  } 
+
   nav ul{
     float: right;
     margin-right: 20px;
@@ -121,27 +58,14 @@ a.active,a:hover{
 
   li:nth-child(5){
     background-color: red;
-    border-radius: 100px;
+    border-radius: 2rem;
   }
 
-  a.active,a:hover{
-    background: #1b9bff;
-    transition: .5s;
+  li:hover:not(:last-child){
+    background-color: #1b9bff;
   }
 
-  a.active
-  .checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
-  #check{
-    display: none;
-  }
+
   @media (max-width: 952px){
     label.logo{
       font-size: 30px;
