@@ -1,8 +1,22 @@
-.homepage-first-image{
-    img{
-        height: 700;
-        width: 1000;
-    }
+.first-pic-container img{
+
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.second-pic-container img{
+
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+.third-pic-container img{
+
+    max-width: 100%;
+    height: auto;
+
 }
 
 .header-button{
