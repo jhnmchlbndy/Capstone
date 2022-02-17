@@ -5,20 +5,11 @@
    }
    
    /* The footer is fixed to the bottom of the page */
-   
    footer {
-       position: fixed;
-       bottom: 0;
+       /* position: absolute; */
+       bottom: 0px;
    }
    
-   @media (max-width: 600px) and (max-height: 450px) {
-       footer {
-           position: static;
-       }
-       header {
-           padding-top: 40px;
-       }
-   }
 
    .footer-pic{
     img{
@@ -39,6 +30,7 @@
        font: bold 16px helvetica;
        padding: 50px 50px 60px 50px;
        margin-top: 80px;
+      /*  position: fixed; */
    }
    
    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
@@ -167,6 +159,14 @@
        margin-bottom: 5px;
    }
    
+   @media (max-width: 600px) and (max-height: 450px) {
+    footer {
+        position: absolute;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
    
    @media (max-width: 880px) {
        .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
