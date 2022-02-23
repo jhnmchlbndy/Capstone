@@ -1,0 +1,42 @@
+.urgentcare-body-images{
+    .urgentcare-title img{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+
+    .urgentcare-message img{
+        width: 100%;
+        height: auto; 
+        padding: 50px; 
+        margin-bottom: -100px;
+    }
+}
+
+.btn-group{
+    width: 100%;
+    border: none;
+}
+
+.btn-group button {
+    font-family: Helvetica;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white; 
+    border: 5px solid #df0000;
+    color: #df0000; 
+    padding: 20px ; 
+    float: left;
+    width: 25rem;
+    border-radius: 10px;
+    margin: 25px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-group button:hover {
+    background-color: #df0000;
+    color: white;
+  }
+
+
