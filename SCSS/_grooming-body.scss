@@ -26,15 +26,26 @@ h1{
     margin-bottom: 20px;
 }
 
-/* ul{
+.service-title-container{
+  width: 100%;
+
+  .service-title-row, .service-row{
+    width: 100%;
+    padding: 0 120px 0;
+  }
+}
+
+.service-row{
+  width: 100%;
+  
+}
+
+.service-list{
    column-count: 2;
    column-gap: 0;
    list-style: none;
- } */
+ } 
  
- /* ADDITIONAL STYLING */
- 
- /* The container */
  .container {
    display: block;
    font-family: Helvetica;

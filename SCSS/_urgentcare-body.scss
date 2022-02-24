@@ -8,7 +8,7 @@
     .urgentcare-message img{
         width: 100%;
         height: auto; 
-        padding: 50px; 
+        padding: 40px; 
         margin-bottom: -100px;
     }
 }
@@ -18,25 +18,87 @@
     border: none;
 }
 
-.btn-group button {
-    font-family: Helvetica;
-    font-size: 27px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: white; 
-    border: 5px solid #df0000;
-    color: #df0000; 
-    padding: 20px ; 
-    float: left;
-    width: 25rem;
-    border-radius: 10px;
-    margin: 25px 20px;
-    cursor: pointer;
-  }
-  
-  .btn-group button:hover {
-    background-color: #df0000;
-    color: white;
+.button {
+      font-family: Helvetica;
+      font-size: 27px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      background-color: white; 
+      border: 5px solid #df0000;
+      color: #df0000; 
+      padding: 20px; 
+      float: left;
+      width: 25rem;
+      border-radius: 10px;
+      margin: 25px 22px;
+      cursor: pointer;
   }
 
+  .button:hover {
+    background-color: #df0000;
+      color: white;
+  }
+
+  
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 5px;
+    color: #df0000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #858585b4;
+  }
+  .popup .close:hover {
+    color: #212121;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
 
