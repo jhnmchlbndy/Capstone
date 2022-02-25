@@ -31,7 +31,7 @@ h1{
 
   .service-title-row, .service-row{
     width: 100%;
-    padding: 0 120px 0;
+    padding: 0 200px 0;
   }
 }
 
@@ -42,7 +42,7 @@ h1{
 
 .service-list{
    column-count: 2;
-   column-gap: 0;
+   column-gap: 15%;
    list-style: none;
  } 
  
@@ -54,14 +54,13 @@ h1{
    margin-bottom: 15px;
    font-weight: bold;
    cursor: pointer;
-   font-size: 20px;
+   font-size: 25px;
    -webkit-user-select: none;
    -moz-user-select: none;
    -ms-user-select: none;
    user-select: none;
  }
  
- /* Hide the browser's default checkbox */
  .container input {
    position: absolute;
    opacity: 0;
@@ -70,7 +69,6 @@ h1{
    width: 0;
  }
  
- /* Create a custom checkbox */
  .checkmark {
    position: absolute;
    top: 50%;
@@ -81,25 +79,20 @@ h1{
    background-color: lightgray;
  }
  
- 
- /* When the checkbox is checked, add a blue background */
  .container input:checked ~ .checkmark {
    background-color: #e8804c;
  }
  
- /* Create the checkmark/indicator (hidden when not checked) */
  .checkmark:after {
    content: "";
    position: absolute;
    display: none;
  }
  
- /* Show the checkmark when checked */
  .container input:checked ~ .checkmark:after {
    display: block;
  }
  
- /* Style the checkmark/indicator */
  .container .checkmark:after {
    left: 7px;
    top: 2px;
@@ -110,4 +103,21 @@ h1{
    -webkit-transform: rotate(45deg);
    -ms-transform: rotate(45deg);
    transform: rotate(45deg);
+ }
+
+ .btn-indivserv{
+    background-color: #e8804c;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px; 
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 3rem 0;
+    cursor: pointer;
  }
