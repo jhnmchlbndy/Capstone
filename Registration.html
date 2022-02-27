@@ -9,10 +9,113 @@
     <link rel="icon" type="image/x-icon" href="WEBSITE ELEMENTS/brand-logo.png">
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Online Appointment System for Veterinary Services</title>
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="icon" type="image/x-icon" href="WEBSITE ELEMENTS/brand-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="title-text">
+         <div class="title login">
+            LOGIN FORM
+         </div>
+         <div class="title signup">
+            SIGN UP FORM
+         </div>
+      </div>
+   <div class="form-container">
+      <div class="slide-controls">
+         <input type="radio" name="slide" id="login" checked>
+         <input type="radio" name="slide" id="signup">
+         <label for="login" class="slide login">Login</label>
+         <label for="signup" class="slide signup">Sign Up</label>
+         <div class="slider-tab"></div>
+      </div>
+      <div class="form-inner">
+         <form action="#" class="login">
+            <div class="field">
+               <input type="text" placeholder="Email Address" required>
+            </div>
+            <div class="field">
+               <input type="password" placeholder="Password" required>
+            </div>
+            <div class="pass-link">
+               <a href="#">Forgot password?</a>
+            </div>
+            <div class="field btn">
+               <div class="btn-layer"></div>
+               <input type="submit" value="Login">
+            </div>
+               <div class="social-btn">
+                  <p class="social-text">Or Login Using </p>
+                  <div id="btn" class="text-center">
+                     <button type="button" class="btn-facebook"><i class="fa fa-facebook"></i></button>
+                     <button type="button" class="btn-google"><i class="fa fa-google"></i></button>
+                     <button type="button" class="btn-twitter"><i class="fa fa-twitter"></i></button>
+                  </div>
+               </div>
+            <div class="signup-link">
+               Not a member? <a href="">Sign Up now</a>
+            </div>
+         </form>
+         <form action="#" class="signup">
+            <div class="field">
+               <input type="text" placeholder="Email Address" required>
+            </div>
+            <div class="field">
+               <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number" required>
+            </div>
+            <div class="field">
+               <input type="password" placeholder="Password" required>
+            </div>
+            <div class="field">
+               <input type="password" placeholder="Confirm password" required>
+            </div>
+            <div class="field btn">
+               <div class="btn-layer"></div>
+               <input type="submit" value="Signup">
+            </div>
+            <div class="social-btn">
+               <p class="social-text">Or Sign Up Using </p>
+               <div id="btn" class="text-center">
+                  <button type="button" class="btn-facebook"><i class="fa fa-facebook"></i></button>
+                  <button type="button" class="btn-google"><i class="fa fa-google"></i></button>
+                  <button type="button" class="btn-twitter"><i class="fa fa-twitter"></i></button>
+               </div>
+            </div>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
 
-
-
-
-    <script src=""></script>
-</body>
+        <script>
+            const loginText = document.querySelector(".title-text .login");
+            const loginForm = document.querySelector("form.login");
+            const loginBtn = document.querySelector("label.login");
+            const signupBtn = document.querySelector("label.signup");
+            const signupLink = document.querySelector("form .signup-link a");
+            signupBtn.onclick = (()=>{
+                loginForm.style.marginLeft = "-50%";
+                loginText.style.marginLeft = "-50%";
+            });
+            loginBtn.onclick = (()=>{
+                loginForm.style.marginLeft = "0%";
+                loginText.style.marginLeft = "0%";
+            });
+            signupLink.onclick = (()=>{
+                signupBtn.click();
+                return false;
+            });
+        </script>
+    </body>
 </html>
