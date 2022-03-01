@@ -5,7 +5,8 @@
   box-sizing: border-box;
   font-family: Helvetica;
 }
-html, body{
+
+body{
   display: grid;
   height: 100%;
   width: 100%;
@@ -132,7 +133,7 @@ form .field input:focus::placeholder{
   color: #b3b3b3;
 }
 .form-inner form .pass-link{
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .form-inner form .signup-link{
   text-align: center;
