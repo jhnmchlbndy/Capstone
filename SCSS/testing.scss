@@ -4,7 +4,7 @@ $danger: #dc3545;
 $warning: #ffc107;
 
 body {
-	background: #f9f9f9;
+	
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,6 +20,10 @@ body {
 }
 .form-group {
     margin-bottom: 1.5rem;
+}
+
+.form-control{
+	color: #b3b3b3;
 }
 
 .nav-pills{
