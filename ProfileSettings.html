@@ -27,15 +27,16 @@
         </div>
         <div class="navbar-links"> 
             <ul>
-                <li><a class="active" href="#">Home</a></li>
+                <li><a class="active" href="Homepage.html">Home</a></li>
                  <!--Dropdown-->
                 <li><div class="dropdown">
-                <button class="dropbtn" href="#">services
+                <button class="dropbtn" href="Services.html">services
                 <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="Services.html">Consulation</a>
-                    <a href="Services.html">Surgery</a>
+					<a href="Services.html">Our Services</a>
+                    <a href="Consultation.html">Consulation</a>
+                    <a href="Surgery.html">Surgery</a>
                     <a href="Grooming.html">Grooming</a>
                   </div>
                 </div>
@@ -77,10 +78,6 @@
 							<i class="fa fa-key text-center mr-1"></i> 
 							Password
 						</a>
-						<a class="nav-link" id="history-tab" data-toggle="pill" href="#history" role="tab" aria-controls="history" aria-selected="false">
-							<i class="fa fa-history text-center mr-1"></i> 
-							History
-						</a>
 						<a class="nav-link" id="logout-tab" data-toggle="pill" href="#logout" role="tab" aria-controls="logout" aria-selected="false">
 							<i class="fa fa-sign-out text-center mr-1"></i> 
 							Log out
@@ -95,14 +92,8 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-								  	<label>First Name</label>
-								  	<input type="text" class="form-control" value="First Name">
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-								  	<label>Last Name</label>
-								  	<input type="text" class="form-control" value="Last Name">
+								  	<label>Full Name</label>
+								  	<input type="text" class="form-control" value="Full Name">
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -114,7 +105,7 @@
 							<div class="col-md-6">
 								<div class="form-group">
 								  	<label>Phone number</label>
-								  	<input type="text" class="form-control" value="Phone Number">
+								  	<input type="number" class="form-control" value="Phone Number" maxlength="11">
 								</div>
 							</div>
 						</div>
@@ -152,21 +143,6 @@
 						<div>
 							<button class="btn btn-primary">Update</button>
 							<button class="btn btn-light">Cancel</button>
-						</div>
-					</div>
-
-					<div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="history-tab">
-						<h3 class="mb-4">History</h3>
-						<div class="row">
-
-							<div class="col-md-6">
-								<div class="form-group">
-
-				<!--HISTORY SETTING-->
-
-                                    
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
