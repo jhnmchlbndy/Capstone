@@ -85,13 +85,10 @@
 
          <form action="#" class="signup">
             <div class="field">
-               <input type="text" placeholder="First Name" required>
+               <input type="text" placeholder="Full Name" required>
             </div>
             <div class="field">
-                <input type="text" placeholder="Last Name" required>
-             </div>
-            <div class="field">
-               <input type="tel" pattern="[0-9]{11}" placeholder="Phone Number" required>
+               <input type="number" maxlength="11" placeholder="Phone Number" required>
             </div>
             <div class="field">
                <input type="text" placeholder="Email Address" required>
@@ -102,6 +99,13 @@
             <div class="field">
                <input type="password" placeholder="Confirm password" required>
             </div>
+
+            <label class="policy-container"></label>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+                I hereby agree to the terms and conditions of this form from Data Privacy Act of 2012.
+            </label>
+
             <div class="field btn">
                <div class="btn-layer"></div>
                <input type="submit" value="Sign up">
