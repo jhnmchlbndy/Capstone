@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-  .navbar{
+  .navigation-bar{
     background: #1697b7;
     height: 80px;
     width: 100%;
@@ -24,7 +24,7 @@
       }
     }
 
-    .navbar-title{
+    .nav-title-page{
       font-family: Arial, Helvetica, sans-serif;
       font-size: 20px;
       font-weight: bold;
@@ -33,7 +33,7 @@
       white-space: nowrap;
     }
 
-   .navbar-links{
+   .nav-links{
     width: 100%;
 
     ul{
