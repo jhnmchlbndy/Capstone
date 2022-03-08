@@ -25,24 +25,24 @@
     </nav>
 
     <div class="nav-button-container">
-        <a href=""><i class="fa fa-chevron-left" 
+        <a href="javascript:javascript:history.go(-1)"><i class="fa fa-chevron-left" 
             style="font-size: 50px; color: #1697b7; cursor: pointer; padding: 30px 20px 10px;"></i></a>
 
-        <a href=""><i class="fa fa-remove" 
+        <a href="Services.html"><i class="fa fa-remove" 
             style="float: right; font-size: 50px;  color: #1697b7; cursor: pointer; padding: 30px 20px 10px;"></i></a>
     </div>
 
 <!--BODY CONTAINER-->
 <!--NAME-->
     <h1 class="name-txt">May I know your pet's name?</h1>
-    <input type="text" id="pet-name" name="pet-name" placeholder="Enter your pet's name">
+    <input type="text" id="pet-name" name="pet-name" placeholder="Enter your pet's name" required>
    
     <div class="age-gender-col">
 
         <div class="age-col">
 
             <h1 class="age-input">Age</h1>
-            <select id="pet-age" name="pet-age" >
+            <select id="pet-age" name="pet-age" required>
                 <option value="" disabled selected class="default">Select age</option>
                 <option value="1m" class="options">1 Month</option>
                 <option value="2m" class="options"> 2 Months</option>
@@ -87,7 +87,7 @@
         <div class="gender-col">
 
             <h1 class="gender-input">Gender</h1>
-            <select id="pet-gender" name="pet-gender">
+            <select id="pet-gender" name="pet-gender" required>
                 <option value="" disabled selected class="default">Select gender</option>
                 <option value="Male" class="options">Male</option>
                 <option value="Female" class="options">Female</option>
