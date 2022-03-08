@@ -1,0 +1,20 @@
+.type-txt {
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.type-container{
+    width: 100%;
+    display: flex;
+}
+
+.type-dog, .type-cat{
+    img{
+        max-width: 100%;
+        height: auto;
+        padding: 0px 120px;
+        cursor: pointer;
+        }
+}
+
