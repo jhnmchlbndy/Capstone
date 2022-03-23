@@ -1,0 +1,9 @@
+OUTSIDE USER
+1. Homepage - the main dashboard of user
+2. Services - clinic services offer.
+    - consultation
+    - surgery
+    - gromming
+3. Login - user can login or create and account.
+4. About us
+5. Urgent Care - user or other people can see first aid for pets when something happened.

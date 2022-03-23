@@ -1,0 +1,26 @@
+INSIDE USER
+
+APPOINTMENT
+
+1. Appointment Info - User input the pet's name, age, gender.
+2. Appointment Type - User determine the type his of pet. 
+3. Appointment Breed - User choose the breed of his pet.
+   (If user choose dog -> Breed Dog)
+   (If user choose cat -> Breed Cat)
+4. Appointment Reason - User choose the main reason of his pet visitation.
+   (if user choose consultation -> Appointmnet REASON)
+   (If user choose surgery -> Appointment REASON SURGERY)
+
+   (Appointmnt detailed reason info) - user can elaborate/tell exactly what happened to his pet.
+
+5. Appointment Calendar - User will choose date (same day) of his pet visitation 
+6. Appointment Confirmation - User can go back or edit some infos. 
+7. Generate Queuing Ticket
+
+*** In terms of grooming ***
+1. Appointment info
+1. Appointment type
+3. Appointment breed
+4. Appointment Calendar
+5. Appointment Package (user choose from the gromming menu, either of the two packages)
+   (Individual services - user can choose specific services among the choices)
