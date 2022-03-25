@@ -2,6 +2,7 @@
 
     max-width: 100%;
     height: auto;
+    margin-top: -20px;
     margin-bottom: 50px;
     cursor: pointer;
 }
@@ -20,19 +21,23 @@
     height: auto;
 }
 
-/* .header-button{
-    background-color: #e8804c;
-    color: white;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 25px;
-    border: none;
-    border-radius: 15px;
-    padding: 15px;
+button {
+	border-radius: 10px;
+    padding: 16px 32px;
+    margin-top: 20px; 
     text-align: center;
     text-decoration: none;
-    margin-top: 50px;
+    font-size: 30px;
+	border:0 none;
+	color: #fff;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+  .queuing-btn {
+    background-color: #95CD41; 
+    color: white; 
+    font-weight: bold;
     float: right;
-    margin-right: 170px;
-    cursor: pointer;
-} */
+    padding: 15px 50px 15px;
+  }
